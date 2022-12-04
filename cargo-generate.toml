@@ -3,3 +3,4 @@ cargo_generate_version = "0.17"
 
 [placeholders]
 description = { type="string", prompt="Description for the web project?" }
+license = { type="string", prompt="License to use?", default = "MIT"}
